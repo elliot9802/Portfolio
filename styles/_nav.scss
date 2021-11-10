@@ -1,0 +1,58 @@
+.nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #1f1a24;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+    & a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        justify-content: right;
+        margin: 40px;
+        font-size: 19px;
+    }
+
+    .headshot {
+        max-width: 200px;
+        width: 200px;
+        max-height: 250px;
+        height: 100%;
+
+        &__h3 {
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            font-size: 22px;
+        }
+
+        &__h4 {
+            display: flex;
+            font-weight: bold;
+            font-size: 15px;
+            justify-content: center;
+        }
+
+        &__img {
+            width: 170px;
+            height: 170px;
+            border: 4px solid #121212;
+            border-radius: 100px;
+            overflow: hidden;
+            margin: 50px auto 20px;
+        }
+
+        &__img img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.fas, .far {
+    color: #504e52;
+    margin-right: 8px;
+}

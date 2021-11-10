@@ -1,0 +1,266 @@
+.nav {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #1f1a24;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin: 40px;
+  font-size: 19px;
+}
+
+.nav .headshot {
+  max-width: 200px;
+  width: 200px;
+  max-height: 250px;
+  height: 100%;
+}
+
+.nav .headshot__h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+  font-size: 22px;
+}
+
+.nav .headshot__h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+  font-size: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav .headshot__img {
+  width: 170px;
+  height: 170px;
+  border: 4px solid #121212;
+  border-radius: 100px;
+  overflow: hidden;
+  margin: 50px auto 20px;
+}
+
+.nav .headshot__img img {
+  width: 100%;
+  height: 100%;
+}
+
+.fas, .far {
+  color: #504e52;
+  margin-right: 8px;
+}
+
+.intro {
+  padding-top: 50px;
+  max-width: 100%;
+  height: auto;
+}
+
+.intro__text {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #1f1a24;
+  width: 100%;
+  color: #fff;
+}
+
+.intro__h1 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.intro__p {
+  margin: 0 30px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.experience {
+  padding-top: 50px;
+}
+
+.experience__container {
+  width: 100%;
+  background-color: #1f1a24;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.experience__h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.experience table {
+  text-align: left;
+  margin: 50px;
+}
+
+.experience th {
+  font-size: 19px;
+}
+
+.experience td {
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+.work {
+  padding-top: 50px;
+}
+
+.work__container {
+  width: 100%;
+  background-color: #1f1a24;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.work__h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.work a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.work img {
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+  height: 50%;
+}
+
+.work p {
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #3e3447;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #534461;
+}
+
+.container {
+  margin-top: 50px;
+  border-radius: 5px;
+  background-color: #1f1a24;
+  padding: 20px;
+}
+
+.container h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+label {
+  color: #fff;
+}
+
+.form-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.form-main__container {
+  height: 80vh;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form-main__text {
+  background-color: #1f1a24;
+  padding: 50px;
+}
+
+.form-main h1 {
+  font-size: 52px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.form-main p {
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+body {
+  margin: 20px;
+  background-color: #121212;
+  font-family: 'Playfair Display', serif;
+}
+/*# sourceMappingURL=index.css.map */

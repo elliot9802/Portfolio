@@ -1,0 +1,39 @@
+.work {
+    padding-top: 50px;
+
+    &__container {
+        width: 100%;
+        background-color: #1f1a24;
+        color: #fff;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    &__h2 {
+        font-size: 22px;
+        margin-bottom: 15px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    & a {
+        text-decoration: none;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    & img {
+        display: block;
+        margin: 20px auto;
+        width: 50%;
+        height: 50%;
+    }
+
+    & p {
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+    }
+}

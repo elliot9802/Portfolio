@@ -1,0 +1,25 @@
+.intro {
+    padding-top: 50px;
+    max-width: 100%;
+    height: auto;
+
+    &__text {
+        text-align: center;
+        padding: 30px 0;
+        background-color: #1f1a24;
+        width: 100%;
+        color: #fff;
+    }
+
+    &__h1 {
+        font-size: 22px;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+    &__p {
+        margin: 0 30px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+  }
