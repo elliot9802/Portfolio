@@ -27,6 +27,10 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #1f1a24;
     padding: 20px;
+
+    & a {
+      text-decoration: none;
+    }
     
     & h2 {
         font-size: 22px;
@@ -80,4 +84,19 @@ input[type=text], select, textarea {
 
   label {
     font-family: 'Playfair Display', serif;
+  }
+
+  .fab {
+    font-size: 45px;
+    color: #fff;
+  }
+
+  .fab:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  .fab-container {
+    display: flex;
+    justify-content: right;
   }

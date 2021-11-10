@@ -1,13 +1,32 @@
 @media screen and (min-width: 768px) {
     .nav {
+        width: 100%;
         display: flex;
-        flex-direction: row;
-    
-    & a {
-        display: flex;
-        flex-direction: row;
+        position: relative;
+        justify-content: center;
 
+        & a {
+            margin: 15px;
+            font-size: 19px;
+        }
+
+        & ul {
+            position: absolute;
+            display: flex;
+        }
     }
+
+    .fas, .far {
+        margin-right: 0px;
+    }
+
+    .headshot {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 200px;
+        min-height: 400px;
+        height: 100%;
     }
 }
 
@@ -30,7 +49,6 @@
     }
 
     .headshot {
-        // position: absolute;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -93,4 +111,10 @@
         border-radius: 4px;
         cursor: pointer;
       }
+
+      .fas, .far {
+        color: #504e52;
+        margin-right: 8px;
+    }
+
 }

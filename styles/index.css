@@ -201,6 +201,10 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
+.container a {
+  text-decoration: none;
+}
+
 .container h2 {
   font-size: 22px;
   margin-bottom: 15px;
@@ -266,24 +270,63 @@ label {
   font-family: 'Playfair Display', serif;
 }
 
+.fab {
+  font-size: 45px;
+  color: #fff;
+}
+
+.fab:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.fab-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
 @media screen and (min-width: 768px) {
   .nav {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    position: relative;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .nav a {
+    margin: 15px;
+    font-size: 19px;
+  }
+  .nav ul {
+    position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+  }
+  .fas, .far {
+    margin-right: 0px;
+  }
+  .headshot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 200px;
+    min-height: 400px;
+    height: 100%;
   }
 }
 
@@ -361,6 +404,10 @@ label {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+  }
+  .fas, .far {
+    color: #504e52;
+    margin-right: 8px;
   }
 }
 
