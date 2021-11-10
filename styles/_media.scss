@@ -1,0 +1,96 @@
+@media screen and (min-width: 768px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+    
+    & a {
+        display: flex;
+        flex-direction: row;
+
+    }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .nav {
+        width: 100%;
+        display: flex;
+        position: relative;
+        justify-content: center;
+
+        & a {
+            margin: 25px;
+            font-size: 26px;
+        }
+
+        & ul {
+            position: absolute;
+            display: flex;
+        }
+    }
+
+    .headshot {
+        // position: absolute;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        min-width: 450px;
+        width: 500px;
+        min-height: 450px;
+        height: 100%;
+
+        .headshot__h2 {
+            font-size: 40px;
+        }
+
+        .headshot__h3 {
+            font-size: 28px;
+        }
+    }
+
+    .intro {
+        &__h1 {
+            font-size: 40px;
+        }
+
+        &__p {
+            font-size: 20px;
+            padding: 30px 0;
+        }
+    }
+
+    .experience {
+        &__h2 {
+            font-size: 40px;
+        }
+
+        & th {
+            font-size: 28px;            
+        }
+
+        & td {
+            font-size: 20px;            
+        }
+    }
+
+    .work {
+        &__h2 {
+            font-size: 40px;
+        }
+
+        & p {
+            font-size: 20px;
+        }
+    }
+
+    input[type=submit] {
+        background-color: #3e3447;
+        color: white;
+        width: 250px;
+        height: 80px;
+        font-size: 35px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+}

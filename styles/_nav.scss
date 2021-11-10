@@ -22,16 +22,16 @@
         max-height: 250px;
         height: 100%;
 
-        &__h3 {
+        &__h2 {
             display: flex;
+            font-weight: bold;
             justify-content: center;
             margin: 10px;
             font-size: 22px;
         }
 
-        &__h4 {
+        &__h3 {
             display: flex;
-            font-weight: bold;
             font-size: 15px;
             justify-content: center;
         }
